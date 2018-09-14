@@ -1249,4 +1249,13 @@ a.rslides_nav.rslides1_nav.next {
   color: #1FB4DA;
 }
 
+#myVideo {
+    position: fixed;
+    z-index:-1000;
+    width: auto;
+    height: auto;
+    transform: translate(-25%, -10%);
+    min-width: 100%;
+    min-height: 100%;
+}
 /*End Contact Section*/
