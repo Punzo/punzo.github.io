@@ -482,9 +482,9 @@ g.Header {
 /* Logo */
 .largelogo{
 float: left;
-height: 250px;
-width: 250px;
-margin-left: 50px;
+height: 225x;
+width: 225px;
+margin-left: 30px;
 margin-top: 50px;
 margin-right: 50px;
 margin-bottom: 50px;
@@ -1250,13 +1250,35 @@ a.rslides_nav.rslides1_nav.next {
   color: #1FB4DA;
 }
 
-#myVideo {
+body {
+  margin: 0;
+  background: #000;
+}
+video {
     position: fixed;
-    z-index:-1000;
-    transform: translate(-15%, 0%);
-    height: auto;
-    width: auto;
-    max-width: 90%;
+    top: 50%;
+    left: 50%;
+    max-width: 60%;
     min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-92%) translateY(-50%);
+    transform: translateX(-92%) translateY(-50%);
+    background: no-repeat;
+    background-size: cover;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+.stopfade {
+   opacity: .5;
+}
+
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
 }
 /*End Contact Section*/
