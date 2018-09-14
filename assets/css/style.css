@@ -143,6 +143,10 @@ section .container {
     margin-left: 175px;
 }
 
+.margin-left-90 {
+    margin-left: 90px;
+}
+
 .margin-top-100 {
     margin-top: 100px;
 }
@@ -478,10 +482,10 @@ g.Header {
 /* Logo */
 .largelogo{
 float: left;
-height: 200px;
-width: 200px;
-margin-left: 20px;
-margin-top: 20px;
+height: 300px;
+width: 300px;
+margin-left: 10px;
+margin-top: 10px;
 margin-right: 10px;
 overflow: show;
 }
@@ -492,7 +496,7 @@ height: 125px;
 width: 125px;
 margin-left: 20px;
 margin-top: 20px;
-margin-right: 10px;
+margin-right: 20px;
 overflow: show;
 }
 
