@@ -1250,12 +1250,12 @@ a.rslides_nav.rslides1_nav.next {
 }
 
 #myVideo {
-    position: fixed;
+    position: absolute;
     z-index:-1000;
-    width: auto;
+    transform: translate(-17.5%, 0%);
     height: auto;
-    transform: translate(-25%, -10%);
-    min-width: 100%;
-    min-height: 100%;
+    width: auto;
+    max-width: 80%;
+    min-height: 105%;
 }
 /*End Contact Section*/
